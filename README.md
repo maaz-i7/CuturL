@@ -5,7 +5,7 @@ CuturL is a modern, clean, and fully responsive landing page built for the AutoB
 ---
 
 ## 🌐 Live Demo
-[*(Click here)*](https://cutur-l.vercel.app/)
+[(Click here)](https://cutur-l.vercel.app/)
 
 ---
 
@@ -14,9 +14,9 @@ CuturL is a modern, clean, and fully responsive landing page built for the AutoB
 The landing page contains all mandatory sections:
 
 - **Hero Section** – A headline, short description, and a primary call-to-action button.  
-- **Features Section** – Three (or more) feature cards explaining the main benefits.  
-- **Testimonials / Product Highlights** – Helps users trust the product.  
-- **Pricing or Contact Section** – Allows users to take the next step.  
+- **Features Section** – Four feature cards explaining the main benefits.  
+- **Testimonials** – Helps users trust the product.  
+- **Pricing** – Allows users to take subscription of product.  
 - **Footer** – A simple, clean footer with links and copyright text.
 
 All sections are fully responsive and adjust smoothly across mobile, tablet, and desktop.
@@ -63,7 +63,3 @@ All sections are fully responsive and adjust smoothly across mobile, tablet, and
 - Combination of AI-generated UI + manual customization
 
 ---
-
-## 📧 Contact
-
-If you have questions or want to connect, feel free to reach out!  
