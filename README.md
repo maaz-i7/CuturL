@@ -1,6 +1,6 @@
 # CuturL – Responsive Landing Page
 
-CuturL is a modern, clean, and fully responsive landing page built for the AutoBotWa frontend assignment. It showcases a product/service through clear sections, smooth layout design, and a simple user-first structure. The website focuses on readability, visual clarity, and consistency across all screen sizes.
+CuturL is a modern, clean, and fully responsive landing page built for the AutoBotWa frontend assignment. It showcases a product through clear sections, smooth layout design, and a simple user-first structure. The website focuses on readability, visual clarity, and consistency across all screen sizes.
 
 ---
 
