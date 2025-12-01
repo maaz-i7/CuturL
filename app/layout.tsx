@@ -39,8 +39,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`font-sans antialiased`}>
-        {/* Removed disableTransitionOnChange to allow smooth theme transitions */}
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
+        {/* ENABLED smooth transitions by removing disableTransitionOnChange */}
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
           {children}
         </ThemeProvider>
         <Analytics />
