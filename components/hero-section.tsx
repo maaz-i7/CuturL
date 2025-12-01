@@ -187,7 +187,7 @@ export default function HeroSection() {
                       Shortened URL
                     </label>
                     <div className="bg-slate-100 dark:bg-zinc-950 rounded-lg p-3 border border-emerald-500/50 flex items-center justify-between gap-3">
-                      <div className="flex items-center gap-2 min-w-0">
+                      <div className="flex items-center gap-2 min-w-0 cursor-pointer">
                         <ExternalLink className="w-4 h-4 text-emerald-500 dark:text-emerald-400 flex-shrink-0" />
                         <p className="text-sm text-emerald-600 dark:text-emerald-400 font-semibold truncate">
                           cuturl.io/summer24
