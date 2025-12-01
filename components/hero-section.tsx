@@ -85,8 +85,9 @@ export default function HeroSection() {
                 </div>
 
                 {/* Final text state - light/dark text colors */}
+                {/* CHANGED: Reduced font sizes from text-3xl/6xl to text-2xl/5xl */}
                 <h1
-                  className={`text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight transition-all duration-700 ease-out ${
+                  className={`text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight transition-all duration-700 ease-out ${
                     animationPhase === "short"
                       ? "opacity-100 translate-y-0"
                       : "opacity-0 translate-y-8 pointer-events-none"
