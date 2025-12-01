@@ -39,8 +39,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`font-sans antialiased`}>
-        {/* <CHANGE> Wrap app with ThemeProvider for light/dark mode support */}
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+        {/* Removed disableTransitionOnChange to allow smooth theme transitions */}
+        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           {children}
         </ThemeProvider>
         <Analytics />
