@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
 import { ArrowRight, Play, Link2, BarChart3, ExternalLink, Copy, Check, Globe, Smartphone } from "lucide-react"
 
 export default function HeroSection() {
@@ -85,7 +86,6 @@ export default function HeroSection() {
                 </div>
 
                 {/* Final text state - light/dark text colors */}
-                {/* CHANGED: Reduced font sizes from text-3xl/6xl to text-2xl/5xl */}
                 <h1
                   className={`text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold leading-tight transition-all duration-700 ease-out ${
                     animationPhase === "short"
@@ -170,16 +170,15 @@ export default function HeroSection() {
                     </span>
                   </div>
 
-                  {/* Original URL */}
+                  {/* Original URL - NOW AN INPUT BOX */}
                   <div className="mb-4">
                     <label className="text-xs text-slate-500 dark:text-zinc-500 uppercase tracking-wider mb-2 block">
                       Original URL
                     </label>
-                    <div className="bg-slate-100 dark:bg-zinc-950 rounded-lg p-3 border border-slate-200 dark:border-zinc-800">
-                      <p className="text-sm text-slate-500 dark:text-zinc-400 truncate font-mono">
-                        https://example.com/products/summer-collection-2024...
-                      </p>
-                    </div>
+                    <Input
+                      defaultValue="https://example.com/products/summer-collection-2024..."
+                      className="bg-slate-100 dark:bg-zinc-950 border-slate-200 dark:border-zinc-800 text-slate-500 dark:text-zinc-400 font-mono text-sm"
+                    />
                   </div>
 
                   {/* Shortened URL */}
