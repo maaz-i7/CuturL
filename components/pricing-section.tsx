@@ -103,7 +103,7 @@ export default function PricingSection() {
 
               {/* CTA Button */}
               <Button
-                className={`w-full py-6 text-base font-semibold rounded-xl transition-all duration-200 ${
+                className={`w-full py-6 text-base font-semibold rounded-xl transition-all duration-200 cursor-pointer ${
                   plan.highlighted
                     ? "bg-emerald-500 hover:bg-emerald-600 text-white dark:text-zinc-900"
                     : "bg-slate-200 dark:bg-zinc-800 hover:bg-slate-300 dark:hover:bg-zinc-700 text-slate-900 dark:text-white"
