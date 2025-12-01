@@ -114,7 +114,7 @@ export default function HeroSection() {
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
                 <Button
                   size="lg"
-                  className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white dark:text-zinc-950 font-semibold px-8 py-6 text-lg rounded-xl shadow-lg shadow-emerald-500/25 transition-all hover:shadow-emerald-500/40 hover:scale-105"
+                  className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white dark:text-zinc-950 font-semibold px-8 py-6 text-lg rounded-xl shadow-lg shadow-emerald-500/25 transition-all hover:shadow-emerald-500/40 hover:scale-105 cursor-pointer"
                 >
                   Get Started Free
                   <ArrowRight className="ml-2 w-5 h-5" />
@@ -122,7 +122,7 @@ export default function HeroSection() {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="w-full sm:w-auto border-slate-300 dark:border-zinc-700 bg-white dark:bg-zinc-900/50 text-slate-700 dark:text-zinc-300 hover:bg-slate-100 dark:hover:bg-zinc-800 hover:text-slate-900 dark:hover:text-white px-8 py-6 text-lg rounded-xl transition-all hover:scale-105"
+                  className="w-full sm:w-auto border-slate-300 dark:border-zinc-700 bg-white dark:bg-zinc-900/50 text-slate-700 dark:text-zinc-300 hover:bg-slate-100 dark:hover:bg-zinc-800 hover:text-slate-900 dark:hover:text-white px-8 py-6 text-lg rounded-xl transition-all hover:scale-105 cursor-pointer"
                 >
                   <Play className="mr-2 w-5 h-5" />
                   View Demo
